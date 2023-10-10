@@ -15,6 +15,7 @@
     "vue-router": "^4.2.4"
   },
   "devDependencies": {
+    "@rehaps/rehaps-web-components-vue": "0.21.4",
     "@tsconfig/node18": "^18.2.2",
     "@types/node": "^18.17.17",
     "@vitejs/plugin-vue": "^4.3.4",
