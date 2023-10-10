@@ -1,6 +1,25 @@
+<script setup lang="ts">
+import { RwcHeroBanner } from "@rehaps/rehaps-web-components-vue/dist/index";
+</script>
+
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <rwc-hero-banner
+      :render-gradient="true"
+      :horizontal-center="50"
+      :vertical-center="50"
+      :gradient-direction-breakpoint="0"
+      :auto-height="true"
+      :custom-structure="false"
+    >
+      <h2>
+        Bacon ipsum dolor amet chicken shankle swine kielbasa turducken beef.
+      </h2>
+      <h3>
+        Corned beef swine alcatra pig rump pork belly tri-tip tongue bacon
+        buffalo.
+      </h3>
+    </rwc-hero-banner>
   </div>
 </template>
 
