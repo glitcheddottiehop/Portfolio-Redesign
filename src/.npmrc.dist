@@ -1,0 +1,2 @@
+@rehaps:registry=https://gitlab.com/api/v4/projects/34049994/packages/npm/
+//gitlab.com/api/v4/projects/34049994/packages/npm/:_authToken=${TOKEN}
