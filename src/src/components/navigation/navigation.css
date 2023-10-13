@@ -1,0 +1,28 @@
+.navbar-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 55px 2rem;
+    max-width: var(--content-width);
+    margin: 0 auto;
+}
+
+.navbar {
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-item {
+    width: 10rem;
+    text-align: center;
+}
+
+a {
+    color: var(--color-basic-white);
+    text-decoration: unset;
+}
