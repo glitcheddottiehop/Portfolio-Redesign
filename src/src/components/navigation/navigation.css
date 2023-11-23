@@ -17,8 +17,34 @@
     align-items: center;
 }
 
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 16px;
+}
+
+.avatar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.avatar img {
+    width: 47px;
+    height: 47px;
+}
+
+.circle {
+    background: url(../../assets/status.svg);
+    height: 18px;
+    width: 18px;
+}
+
 .navbar-item {
-    width: 10rem;
+    width: 8rem;
     text-align: center;
 }
 

@@ -5,7 +5,11 @@ import { RouterLink } from 'vue-router'
 <template>
     <div class="navbar-wrapper">
         <div class="logo">
-            
+            <div class="avatar">
+                <img src="../../assets/logo.png" alt="">
+                <div class="circle"></div>
+            </div>
+            Santa Vitkovska
         </div>
         <nav class="navbar">
             <RouterLink class="navbar-item" to="/">Home</RouterLink>
