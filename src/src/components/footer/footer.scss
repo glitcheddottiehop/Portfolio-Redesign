@@ -44,7 +44,7 @@
     }
 
     .background--hover {
-        background: radial-gradient(circle closest-corner, rgba(255, 255, 255, 0.3), rgb(255, 255, 255, 0));
+        background: var( --gradient-radial-bottom-links);
         opacity: 0;
     }
 }

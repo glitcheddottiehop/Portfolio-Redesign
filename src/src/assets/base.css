@@ -9,11 +9,17 @@
   --color-main-red: #F71735;
   --color-main-magenta: #C2095A;
 
+  /* Gradients */
+  --gradient-radial-bottom-links: radial-gradient(circle closest-corner, rgba(255, 255, 255, 0.3), rgb(255, 255, 255, 0));
+
   /* Fonts */
   --font-family-default: 'Kanit', sans-serif;
   --font-family-title: 'Tangerine', cursive;
   --font-family-text: 'Oswald', sans-serif;
   --font-family-section: 'Syncopate', sans-serif;
+
+  /* Timing */
+  --transition-duration-bottom-link: 200ms;
 
   --content-width: 90rem;
 }
