@@ -10,6 +10,7 @@
   --color-main-magenta: #C2095A;
 
   /* Gradients */
+  --gradient-linear-white: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(255, 255, 255), rgba(255, 255, 255, 0));
   --gradient-radial-bottom-links: radial-gradient(circle closest-corner, rgba(255, 255, 255, 0.3), rgb(255, 255, 255, 0));
 
   /* Fonts */

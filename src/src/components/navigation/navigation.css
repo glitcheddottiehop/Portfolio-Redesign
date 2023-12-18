@@ -45,10 +45,15 @@
 
 .navbar-item {
     width: 8rem;
-    text-align: center;
+    text-align: center; 
 }
 
 a {
     color: var(--color-basic-white);
     text-decoration: unset;
+}
+
+.router-link-active{
+    background: var(--gradient-linear-white) bottom no-repeat;
+    background-size: 128px 1px;
 }
