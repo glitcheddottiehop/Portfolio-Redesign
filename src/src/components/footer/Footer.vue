@@ -14,6 +14,6 @@ import { RouterLink } from 'vue-router'
     </footer>
 </template>
 
-<style scoped>
-@import "./footer.css";
+<style scoped lang="scss">
+@import "./footer.scss";
 </style>
