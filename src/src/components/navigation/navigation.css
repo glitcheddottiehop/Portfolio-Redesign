@@ -2,9 +2,12 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 55px 2rem;
+    padding: 55px var(--spacing-lg);
     max-width: var(--content-width);
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    width: 100%;
 }
 
 .navbar {
@@ -38,7 +41,7 @@
 }
 
 .circle {
-    background: url(../../assets/status.svg);
+    background: url(../../assets/img/status.svg);
     height: 18px;
     width: 18px;
 }
