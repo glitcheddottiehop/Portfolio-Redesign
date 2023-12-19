@@ -22,16 +22,22 @@
   /* Timing */
   --transition-duration-bottom-link: 200ms;
 
+  /* Width and height */
   --content-width: 90rem;
+
+  /* Spacings */
+  --spacing-lg: 2rem;
 }
 
 body {
   font-family: var(--font-family-default);
   color: var(--color-basic-white);
   margin: 0;
-  background: url(bg.svg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background-color: var(--color-main-dark-blue);
+}
+
+#app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
