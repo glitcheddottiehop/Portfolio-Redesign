@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import { ref, type Ref, } from "vue";
 import { getAge } from "./about";
+import downloadIcon from "@/assets/img/download.svg";
+import CV from "@/assets/CV.pdf"
 
 const userCardFlipped: Ref<boolean> = ref(false);
 
@@ -54,6 +56,15 @@ const userCardFlipped: Ref<boolean> = ref(false);
       </div>
     </div>
   </div>
+
+  <a :href="CV" class="cv" download="Santa Vitkovska_CV">
+    <button class="cssbuttons-io-button spacing__auto--mlr">
+      Download CV
+      <div class="icon">
+        <img :src= downloadIcon  alt="">
+      </div>
+    </button>
+  </a>
 </template>
 
 <style>
