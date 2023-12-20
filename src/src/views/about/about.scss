@@ -65,7 +65,7 @@
     object-fit: cover;
     height: 230px;
     width: 100%;
-    border-radius: 20px;    
+    border-radius: 20px 20px 0 0;
 }
 
 .card__avatar {
@@ -78,11 +78,6 @@
     justify-content: center;
     align-items: center;
     top: calc(50% - 125px);
-}
-
-.card__avatar svg {
-    width: 100px;
-    height: 100px;
 }
 
 .wrapper {
@@ -104,11 +99,25 @@
 .card__subtitle {
     margin-top: 10px;
     font-weight: 400;
-    font-size: 0.938rem;
-    color: var(--submain-color);
+    font-size: 1rem;
+    color: var(--color-main-dark-blue);
 
     &.about-me {
-        font-size: 20px;
+        font-size: 1.25rem;
+        display: flex;
+        text-align: center;
+    }
+}
+
+.instagram-link {
+    font-style: italic;
+    font-weight: 500;
+    text-decoration: none;
+    transition: font-size 200ms, color 200ms;
+
+    &:hover {
+        font-size: 115%;
+        color: var(--color-main-magenta);
     }
 }
 
