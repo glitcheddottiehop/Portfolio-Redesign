@@ -10,7 +10,7 @@ const userCardFlipped: Ref<boolean> = ref(false);
     'user-card-wrapper': true,
     flipped: userCardFlipped
   } ">
-    <div class="card spacing__auto--mlr bio bio-front" @click="userCardFlipped = !userCardFlipped">
+    <div class="card spacing__auto--mlr bio bio-front">
       <div class="card__img">
         <img class="profile-bg" src="../../assets/img/profile_background.jpg" alt="">
       </div>
@@ -26,13 +26,12 @@ const userCardFlipped: Ref<boolean> = ref(false);
         <div class=" card__title">Santa Vitkovska</div>
         <div class="card__subtitle">UX/UI Designer</div>
         <div class="card__wrapper">
-          <!-- //TODO add flip on button only -->
-          <button class="card__btn card__btn-solid">Read more</button>
+          <button class="card__btn card__btn-solid" @click="userCardFlipped = !userCardFlipped">Read more</button>
         </div>
       </div>
     </div>
 
-    <div class="card spacing__auto--mlr bio bio-back spacing__lg--plr" @click="userCardFlipped = !userCardFlipped">
+    <div class="card spacing__auto--mlr bio bio-back spacing__lg--plr">
       <div class="card__title">More about me...</div>
       <div class="card__subtitle about-me">
         <div>Hi! My name is Santa. I'm
@@ -51,7 +50,7 @@ const userCardFlipped: Ref<boolean> = ref(false);
         </div>
       </div>
       <div class="card__wrapper">
-        <button class="card__btn card__btn-solid">Back</button>
+        <button class="card__btn card__btn-solid" @click="userCardFlipped = !userCardFlipped">Back</button>
       </div>
     </div>
   </div>
