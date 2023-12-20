@@ -1,16 +1,19 @@
-import './assets/main.css'
+import './assets/main.scss';
 
-import { createApp } from 'vue'
-import { createPinia } from 'pinia'
+import { VueElement, createApp } from 'vue';
+import { createPinia } from 'pinia';
 
-import App from './App.vue'
-import router from './router'
+import App from './App.vue';
+import router from './router';
 import { ComponentLibrary } from '@rehaps/rehaps-web-components-vue';
+/** @ts-ignore */
+import Spline from 'vue-spline';
 
-const app = createApp(App)
+const app = createApp(App);
 
-app.use(createPinia())
-app.use(router)
+app.use(createPinia());
+app.use(router);
+app.use(Spline);
 app.use(ComponentLibrary);
 
-app.mount('#app')
+app.mount('#app');

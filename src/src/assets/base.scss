@@ -35,6 +35,10 @@ body {
   color: var(--color-basic-white);
   margin: 0;
   background-color: var(--color-main-dark-blue);
+
+  a {
+    text-decoration: none;
+  }
 }
 
 #app {
