@@ -3,10 +3,12 @@
 
 <template>
   <main>
-    <div class="title">
-      Aesthetics
+    <div class="content-width spacing__lg--plr spacing__auto--mlr spacing__xl--ptb">
+      <div class="title">
+        Aesthetics
+      </div>
     </div>
-    <div class="quote">
+    <div class="quote content-width spacing__lg--plr spacing__auto--mlr">
       Your idea, my skills, our design.
     </div>
   </main>
