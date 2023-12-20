@@ -16,15 +16,13 @@
 
 <style scoped>
 .title {
-  font-size: 200px;
+  font-size: 12.5rem;
   font-family: var(--font-family-title);
   color: var(--color-main-yellow);
-  padding-top: 80px;
-  padding-left: 150px;
-  padding-bottom: 60px;
+  padding-left: 9.375rem;
 }
 .quote {
-  font-size: 28px;
+  font-size: 1.75rem;
   text-align: center;
   font-style: italic;
 }
