@@ -10,6 +10,10 @@
     "type-check": "vue-tsc --noEmit -p tsconfig.app.json --composite false"
   },
   "dependencies": {
+    "@splinetool/runtime": "^0.9.523",
+    "@splinetool/viewer": "^0.9.524",
+    "auto-bind": "^5.0.1",
+    "normalize-wheel": "^1.0.1",
     "pinia": "^2.1.6",
     "vue": "^3.3.4",
     "vue-router": "^4.2.4"

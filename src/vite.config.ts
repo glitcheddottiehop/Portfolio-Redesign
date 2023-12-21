@@ -12,7 +12,7 @@ export default defineConfig({
       template: {
         compilerOptions: {
           // treat all tags with a dash as custom elements
-          isCustomElement: (tag) => tag.startsWith("rwc-"),
+          isCustomElement: (tag) => tag.startsWith("rwc-") || tag === "spline-viewer",
         },
       },
     }),
