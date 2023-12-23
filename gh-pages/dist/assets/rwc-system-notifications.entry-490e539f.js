@@ -1,0 +1,50 @@
+import{l as n,p as s,H as e,q as r,s as a}from"./index-19c43f58.js";import{C as c}from"./close-fa8fe5b6-a0033c52.js";const f=`@font-face{font-family:"Inter";font-style:normal;font-weight:400;font-display:swap;src:url("assets/fonts/inter/Inter-Regular.woff2?v=1.0") format("woff2"), url("assets/fonts/inter/Inter-Regular.woff?v=1.0") format("woff")}@font-face{font-family:"Inter";font-style:normal;font-weight:500;font-display:swap;src:url("assets/fonts/inter/Inter-Medium.woff2?v=1.0") format("woff2"), url("assets/fonts/inter/Inter-Medium.woff?v=1.0") format("woff")}@font-face{font-family:"Inter";font-style:normal;font-weight:600;font-display:swap;src:url("assets/fonts/inter/Inter-SemiBold.woff2?v=1.0") format("woff2"), url("assets/fonts/inter/Inter-SemiBold.woff?v=1.0") format("woff")}:host{--system-notifications-info-title-color:rgb(33, 33, 33);--system-notifications-info-message-color:rgb(33, 33, 33);--system-notifications-info-background-color:rgb(176, 224, 230);--system-notifications-info-border-color:rgb(70, 130, 180);--system-notifications-info-close-icon-color:rgb(33, 33, 33);--system-notifications-info-close-icon-hover-color:rgb(33, 33, 33);--system-notifications-success-title-color:rgb(33, 33, 33);--system-notifications-success-message-color:rgb(33, 33, 33);--system-notifications-success-background-color:rgb(144, 238, 144);--system-notifications-success-border-color:rgb(50, 205, 50);--system-notifications-success-close-icon-color:rgb(33, 33, 33);--system-notifications-success-close-icon-hover-color:rgb(33, 33, 33);--system-notifications-warning-title-color:rgb(33, 33, 33);--system-notifications-warning-message-color:rgb(33, 33, 33);--system-notifications-warning-background-color:rgb(255, 248, 220);--system-notifications-warning-border-color:rgb(255, 165, 0);--system-notifications-warning-close-icon-color:rgb(33, 33, 33);--system-notifications-warning-close-icon-hover-color:rgb(33, 33, 33);--system-notifications-error-title-color:rgb(33, 33, 33);--system-notifications-error-message-color:rgb(33, 33, 33);--system-notifications-error-background-color:rgb(255, 160, 122);--system-notifications-error-border-color:rgb(205, 92, 92);--system-notifications-error-close-icon-color:rgb(33, 33, 33);--system-notifications-error-close-icon-hover-color:rgb(33, 33, 33);--system-notifications-border-width:2px;--system-notifications-border-style:solid;--system-notifications-border-radius:0.5rem;--system-notifications-item-padding:0.5rem 2.5rem
+    0.5rem 0.5rem;--system-notifications-item-gap:0.125rem;--system-notifications-close-icon-size:1.5rem;--system-notifications-close-icon-spacing-right:0.5rem;--system-notifications-title-font-size:0.875rem;--system-notifications-title-font-weight:600;--system-notifications-message-font-size:0.75rem;--system-notifications-message-font-weight:500;--system-notifications-fade-animation-duration:500ms;--system-notifications-height-animation-duration:200ms;display:block}p{margin:0}.container{display:flex;flex-direction:column;gap:var(--system-notifications-item-gap);position:relative}.notification-wrapper{box-sizing:border-box;width:100%;overflow:hidden;max-height:0;transition:opacity var(--system-notifications-fade-animation-duration), max-height calc(var(--system-notifications-height-animation-duration) / 2) linear}.notification-wrapper.closing{max-height:0 !important;opacity:0;transition:opacity var(--system-notifications-fade-animation-duration), max-height var(--system-notifications-height-animation-duration) linear calc(var(--system-notifications-fade-animation-duration) - var(--system-notifications-height-animation-duration))}.notification{--system-notifications-background-color:var(
+    --system-notifications-info-background-color
+  );--system-notifications-border-color:var(
+    --system-notifications-info-border-color
+  );--system-notifications-title-color:var(
+    --system-notifications-info-title-color
+  );--system-notifications-message-color:var(
+    --system-notifications-info-message-color
+  );--system-notifications-close-icon-color:var(
+    --system-notifications-info-close-icon-color
+  );--system-notifications-close-icon-hover-color:var(
+    --system-notifications-info-close-icon-hover-color
+  );background-color:var(--system-notifications-background-color);border:var(--system-notifications-border-width) var(--system-notifications-border-style) var(--system-notifications-border-color);border-radius:var(--system-notifications-border-radius);opacity:1;padding:var(--system-notifications-item-padding);position:relative}.notification.success{--system-notifications-background-color:var(
+    --system-notifications-success-background-color
+  );--system-notifications-border-color:var(
+    --system-notifications-success-border-color
+  );--system-notifications-title-color:var(
+    --system-notifications-success-title-color
+  );--system-notifications-message-color:var(
+    --system-notifications-success-message-color
+  );--system-notifications-close-icon-color:var(
+    --system-notifications-success-close-icon-color
+  );--system-notifications-close-icon-hover-color:var(
+    --system-notifications-success-close-icon-hover-color
+  )}.notification.warning{--system-notifications-background-color:var(
+    --system-notifications-warning-background-color
+  );--system-notifications-border-color:var(
+    --system-notifications-warning-border-color
+  );--system-notifications-title-color:var(
+    --system-notifications-warning-title-color
+  );--system-notifications-message-color:var(
+    --system-notifications-warning-message-color
+  );--system-notifications-close-icon-color:var(
+    --system-notifications-warning-close-icon-color
+  );--system-notifications-close-icon-hover-color:var(
+    --system-notifications-warning-close-icon-hover-color
+  )}.notification.error{--system-notifications-background-color:var(
+    --system-notifications-error-background-color
+  );--system-notifications-border-color:var(
+    --system-notifications-error-border-color
+  );--system-notifications-title-color:var(
+    --system-notifications-error-title-color
+  );--system-notifications-message-color:var(
+    --system-notifications-error-message-color
+  );--system-notifications-close-icon-color:var(
+    --system-notifications-error-close-icon-color
+  );--system-notifications-close-icon-hover-color:var(
+    --system-notifications-error-close-icon-hover-color
+  )}.close-icon{bottom:0;top:0;cursor:pointer;display:flex;flex-direction:column;justify-content:center;position:absolute;right:var(--system-notifications-close-icon-spacing-right)}.close-icon>svg{fill:var(--system-notifications-close-icon-color);height:var(--system-notifications-close-icon-size)}.close-icon:hover>svg{fill:var(--system-notifications-close-icon-hover-color)}.title{color:var(--system-notifications-title-color);font-size:var(--system-notifications-title-font-size);font-weight:var(--system-notifications-title-font-weight)}.message{color:var(--system-notifications-message-color);font-size:var(--system-notifications-message-font-size);font-weight:var(--system-notifications-message-font-weight)}`,l=class{constructor(o){n(this,o),this.notifications=new Map,this.stateChangeTrigger=!1}get animationDuration(){return Number.parseInt(getComputedStyle(this.host).getPropertyValue("--system-notifications-fade-animation-duration"))}get heightAnimationDuration(){return Number.parseInt(getComputedStyle(this.host).getPropertyValue("--system-notifications-height-animation-duration"))}onWindowResize(){this.notificationContainerElement.querySelectorAll(".notification-wrapper").forEach(o=>{o.style.maxHeight=`${o.scrollHeight}px`})}connectedCallback(){this.notifications.clear()}disconnectedCallback(){this.notifications.forEach(o=>{clearTimeout(o)})}async pushNotification(o){return o.key||(o.key=Math.floor(Math.random()*Number.MAX_SAFE_INTEGER).toString()),this.notifications.set(o,this.initAutoRemove(o)),this.forceStateChange()&&(await new Promise(requestAnimationFrame),setTimeout(()=>{this.updateNotificationMaxHeight(o)},0)),o.key}async setNotifications(o){this.clearNotifications();const t=[];for(const i of o)t.push(await this.pushNotification(i));return t}async removeNotification(o){const t=Array.from(this.notifications.keys())[o];this.removeNotificationByReference(t)}async clearNotifications(){this.notifications.clear(),this.forceStateChange()}initAutoRemove(o){return this.unsetAutoRemoveByReference(o),o.duration>0?setTimeout(()=>{this.removeNotificationByReference(o)},o.duration):null}unsetAutoRemoveByReference(o){const t=this.notifications.get(o);t!==null&&clearTimeout(t)}async removeNotificationByReference(o){setTimeout(()=>{o.closing=!0,this.forceStateChange()&&setTimeout(()=>{this.handleNotificationRemove(o)},Math.max(0,this.animationDuration-this.heightAnimationDuration))},0)}async handleNotificationRemove(o){setTimeout(()=>{this.notifications.delete(o),this.forceStateChange()},Math.max(0,this.heightAnimationDuration))}updateNotificationMaxHeight(o){const t=this.notificationContainerElement.querySelector(`[data-key="${o.key}"]`);return t&&(t.style.maxHeight=`${t.scrollHeight}px`),t}forceStateChange(){try{return this.stateChangeTrigger=!this.stateChangeTrigger,!0}catch{return!1}}render(){return s(e,null,s("div",{ref:o=>this.notificationContainerElement=o,class:"container"},this.renderNotifications()))}renderNotifications(){var o;const t=[];for(const[i,m]of this.notifications)t.push(s("div",{class:{"notification-wrapper":!0,closing:i.closing},key:i.key,"data-key":i.key,onMouseEnter:()=>this.unsetAutoRemoveByReference(i),onMouseLeave:()=>this.initAutoRemove(i)},s("div",{class:{notification:!0,[(o=i.type)!==null&&o!==void 0?o:"info"]:!0}},this.renderCloseIcon(i),i.title&&s("p",{class:"title"},i.title),i.message&&s("p",{class:"message"},i.message))));return t}renderCloseIcon(o){return o.closable?s("div",{class:"close-icon",innerHTML:c,onClick:()=>this.removeNotificationByReference(o)}):s(a,null)}get host(){return r(this)}};l.style=f;export{l as rwc_system_notifications};
