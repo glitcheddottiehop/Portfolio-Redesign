@@ -2,6 +2,15 @@
 /**@ts-ignore */
 import { onMounted, ref, type Ref } from "vue";
 import { SlideShow } from '@/libraries/Sliders/SlideShow';
+import Productivity from '@/assets/img/productivity.png';
+import Workwize from '@/assets/img/workwize.png';
+import Wwyltd from '@/assets/img/wwyltd.png';
+
+interface ProjectImages {
+  productivity: string,
+  workwize: string,
+  wwyltd: string
+}
 
 const rootElement: Ref<HTMLElement | null> = ref(null);
 const sliderElement: Ref<HTMLElement | null> = ref(null);
@@ -23,6 +32,13 @@ onMounted(() => {
   }
 });
 
+
+const images: ProjectImages = {
+  productivity: Productivity,
+  workwize: Workwize,
+  wwyltd: Wwyltd
+}
+
 </script>
 
 <template>
@@ -31,28 +47,40 @@ onMounted(() => {
       <div class="first-slider" ref="sliderFirstElement">
         <div class="slider-section">
           <div class="slider-image-wrapper">
-            <img class="slider-image" src="https://source.unsplash.com/1600x900/?nature,water" alt="" />
-            <h2 class="slider-title">Title 1</h2>
+            <img class="slider-image" :src="images.productivity" alt="" />
+            <h2 class="slider-title">Productivity</h2>
           </div>
         </div>
         <div class="slider-section">
           <div class="slider-image-wrapper">
-            <img class="slider-image" src="https://source.unsplash.com/1600x900/?nature,water" alt="" />
-            <h2 class="slider-title">Title 2</h2>
+            <img class="slider-image" :src="images.wwyltd" alt="" />
+            <h2 class="slider-title">What would you like to do?</h2>
+          </div>
+        </div>
+        <div class="slider-section">
+          <div class="slider-image-wrapper">
+            <img class="slider-image" :src="images.workwize" alt="" />
+            <h2 class="slider-title">WorkWize</h2>
           </div>
         </div>
       </div>
       <div class="second-slider" ref="sliderSecondElement">
         <div class="slider-section">
           <div class="slider-image-wrapper">
-            <img class="slider-image" src="https://source.unsplash.com/1600x900/?nature,water" alt="" />
-            <h2 class="slider-title">Title 1</h2>
+            <img class="slider-image" :src="images.productivity"  alt="" />
+            <h2 class="slider-title">Productivity</h2>
           </div>
         </div>
         <div class="slider-section">
           <div class="slider-image-wrapper">
-            <img class="slider-image" src="https://source.unsplash.com/1600x900/?nature,water" alt="" />
-            <h2 class="slider-title">Title 2</h2>
+            <img class="slider-image" :src="images.wwyltd"  alt="" />
+            <h2 class="slider-title">What would you like to do?</h2>
+          </div>
+        </div>
+        <div class="slider-section">
+          <div class="slider-image-wrapper">
+            <img class="slider-image" :src="images.workwize"  alt="" />
+            <h2 class="slider-title">WorkWize</h2>
           </div>
         </div>
       </div>
