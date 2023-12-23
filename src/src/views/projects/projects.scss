@@ -1,0 +1,37 @@
+
+.wrapper {
+    overflow: hidden;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.slider {
+    display: flex;
+    flex-wrap: nowrap;
+    width: max-content;
+}
+
+.first-slider,
+.second-slider {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.slider-section {
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider-image-wrapper {
+    position: relative;
+    width: 50%;
+}
+
+.slider-image {
+    width: 100%;
+    height: auto;
+}

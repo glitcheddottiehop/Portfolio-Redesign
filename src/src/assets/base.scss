@@ -1,0 +1,48 @@
+:root {
+  /* Colors */
+  --color-basic-white: #FFFFFF;
+  --color-basic-black: #000000;
+  --color-basic-gray: #8A8A8A;
+  --color-main-yellow: #FEB95F;
+  --color-main-dark-blue: #110D28;
+  --color-main-light-blue: #669BBC;
+  --color-main-red: #F71735;
+  --color-main-magenta: #C2095A;
+
+  /* Gradients */
+  --gradient-linear-white: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(255, 255, 255), rgba(255, 255, 255, 0));
+  --gradient-radial-bottom-links: radial-gradient(circle closest-corner, rgba(255, 255, 255, 0.3), rgb(255, 255, 255, 0));
+
+  /* Fonts */
+  --font-family-default: 'Kanit', sans-serif;
+  --font-family-title: 'Tangerine', cursive;
+  --font-family-text: 'Oswald', sans-serif;
+  --font-family-section: 'Syncopate', sans-serif;
+
+  /* Timing */
+  --transition-duration-bottom-link: 200ms;
+
+  /* Width and height */
+  --content-width: 90rem;
+
+  /* Spacings */
+  --spacing-lg: 2rem;
+  --spacing-xl: 3.75rem;
+}
+
+body {
+  font-family: var(--font-family-default);
+  color: var(--color-basic-white);
+  margin: 0;
+  background-color: var(--color-main-dark-blue);
+
+  a {
+    text-decoration: none;
+  }
+}
+
+#app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}

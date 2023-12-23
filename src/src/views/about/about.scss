@@ -1,0 +1,82 @@
+/* Card content*/
+.card__title {
+    margin-top: 60px;
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: var(--main-color);
+}
+
+.card__subtitle {
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--color-main-dark-blue);
+
+    &.about-me {
+        font-size: 1.25rem;
+        display: flex;
+        text-align: center;
+    }
+}
+
+.instagram-link {
+    font-style: italic;
+    font-weight: 500;
+    text-decoration: none;
+    transition: font-size 200ms, color 200ms;
+
+    &:hover {
+        font-size: 115%;
+        color: var(--color-main-magenta);
+    }
+}
+
+/* Download button */
+.cv {
+    margin-top: 50px;
+}
+
+.cssbuttons-io-button {
+    background: var(--color-main-yellow);
+    color: var(--color-main-dark-blue);
+    font-family: inherit;
+    padding: 0.35em;
+    padding-left: 1.2em;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 0.9em;
+    border: none;
+    letter-spacing: 0.05em;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    height: 2.8em;
+    padding-right: 3.3em;
+    cursor: pointer;
+    width: max-content;
+    text-decoration: none;
+}
+
+.cssbuttons-io-button .icon {
+    background: white;
+    margin-left: 1em;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.2em;
+    width: 2.2em;
+    border-radius: 0.7em;
+    box-shadow: 0.1em 0.1em 0.6em 0.2em hsl(34, 49%, 51%);
+    right: 0.3em;
+    transition: all 0.3s;
+}
+
+.cssbuttons-io-button:hover .icon {
+    width: calc(100% - 0.6em);
+}
+
+.cssbuttons-io-button:hover .icon svg {
+    transform: translateX(0.1em);
+}
